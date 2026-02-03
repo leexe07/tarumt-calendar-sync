@@ -370,7 +370,7 @@ function extractSemesterStart(durationStr) {
     }
     const day = parseInt(match[1], 10);
     const month = match[2];
-    const year = "2025"; // fallback year if not in string
+    const year = new Date().getFullYear().toString(); // Dynamically uses the current year
     
     // Parse month name to month number
     const monthMap = {
