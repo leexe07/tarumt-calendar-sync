@@ -312,3 +312,10 @@
 [2026-04-14T22:50:34.035Z] ICS file generated: timetable.ics (124 total events)
 [2026-04-14T22:50:34.035Z] Timetable processing completed successfully
 [2026-04-15T22:47:41.633Z] Login error: fetch failed
+[2026-04-16T22:48:54.076Z] Login successful
+[2026-04-16T22:48:55.406Z] Processing class timetable data...
+[2026-04-16T22:48:55.408Z] Added 121 class events
+[2026-04-16T22:48:55.408Z] Processing exam timetable data...
+[2026-04-16T22:48:55.408Z] Added 3 exam events
+[2026-04-16T22:48:55.408Z] ICS file generated: timetable.ics (124 total events)
+[2026-04-16T22:48:55.408Z] Timetable processing completed successfully
