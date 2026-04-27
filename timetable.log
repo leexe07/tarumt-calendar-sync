@@ -389,3 +389,10 @@
 [2026-04-26T22:44:56.340Z] Added 3 exam events
 [2026-04-26T22:44:56.340Z] ICS file generated: timetable.ics (112 total events)
 [2026-04-26T22:44:56.341Z] Timetable processing completed successfully
+[2026-04-27T22:56:31.671Z] Login successful
+[2026-04-27T22:56:32.886Z] Processing class timetable data...
+[2026-04-27T22:56:32.889Z] Added 109 class events
+[2026-04-27T22:56:32.889Z] Processing exam timetable data...
+[2026-04-27T22:56:32.889Z] Added 3 exam events
+[2026-04-27T22:56:32.890Z] ICS file generated: timetable.ics (112 total events)
+[2026-04-27T22:56:32.890Z] Timetable processing completed successfully
