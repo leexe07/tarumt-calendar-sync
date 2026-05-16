@@ -508,3 +508,9 @@
 [2026-05-15T22:58:43.514Z] Added 3 exam events
 [2026-05-15T22:58:43.515Z] ICS file generated: timetable.ics (3 total events)
 [2026-05-15T22:58:43.515Z] Timetable processing completed successfully
+[2026-05-16T22:52:32.798Z] Login successful
+[2026-05-16T22:52:34.192Z] No class timetable data available yet. Skipping class schedule.
+[2026-05-16T22:52:34.192Z] Processing exam timetable data...
+[2026-05-16T22:52:34.193Z] Added 3 exam events
+[2026-05-16T22:52:34.193Z] ICS file generated: timetable.ics (3 total events)
+[2026-05-16T22:52:34.193Z] Timetable processing completed successfully
