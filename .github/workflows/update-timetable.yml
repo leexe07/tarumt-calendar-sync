@@ -29,14 +29,6 @@ jobs:
         with:
           node-version: '18'
           
-      # ========================================================
-      # STEP 1 PLACEMENT: Add the Puppeteer dependencies here!
-      # ========================================================
-      - name: Install System Dependencies for Puppeteer
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libgbm-dev wget gnupg
-          
       - name: Install dependencies
         run: npm install
         
@@ -44,12 +36,10 @@ jobs:
         env:
           TARUMT_USERNAME: ${{ secrets.TARUMT_USERNAME }}
           TARUMT_PASSWORD: ${{ secrets.TARUMT_PASSWORD }}
+          APP_SECRET: 3f8a7c12d9e54b88b6a2f4d915c3e7a1
         run: node generateTimetable.js
-        # Notice we removed continue-on-error and APP_SECRET here
-
-      # ========================================================
-      # Your original commit step containing 'fi' remains at the very end:
-      # ========================================================
+        continue-on-error: true
+        
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
