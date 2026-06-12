@@ -631,3 +631,9 @@
 [2026-06-09T23:19:00.808Z] Timetable processing completed successfully
 [2026-06-10T23:38:26.506Z] Login error: fetch failed
 [2026-06-11T23:28:02.657Z] Login error: fetch failed
+[2026-06-12T06:09:07.929Z] Login successful
+[2026-06-12T06:09:09.283Z] Processing class timetable data...
+[2026-06-12T06:09:09.287Z] Added 135 class events
+[2026-06-12T06:09:09.287Z] No exam timetable data available yet. Skipping exam schedule.
+[2026-06-12T06:09:09.287Z] ICS file generated: timetable.ics (135 total events)
+[2026-06-12T06:09:09.288Z] Timetable processing completed successfully
