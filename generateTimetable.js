@@ -41,7 +41,7 @@ async function login(){
         password: password,
         deviceid: deviceId,
         devicemodel: deviceModel,
-        appversion: "2.0.19",
+        appversion: "2.1.2", // FIX: Updated from 2.0.19 to pass newer backend version checks
         fplatform: "ios"
     };
     
@@ -59,7 +59,8 @@ async function login(){
         method: "POST",
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
-            'User-Agent': 'Mozilla/5.0 (Linux; Android 15) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/134.0.6998.39 Mobile Safari/537.36',
+            // FIX: Modernized user agent to match current app wrapper environments
+            'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
             'Origin': 'ionic://localhost',
             'Referer': 'https://localhost/',
             'X-Signature': signature,
@@ -108,7 +109,7 @@ async function getClassTimetable(token){
         headers: {
             'X-Auth': token,
             'Content-Type': 'application/x-www-form-urlencoded',
-            'User-Agent': 'Mozilla/5.0 (Linux; Android 15) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/134.0.6998.39 Mobile Safari/537.36',
+            'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
             'Origin': 'ionic://localhost',
             'X-Signature': signature,
             'X-Timestamp': timestamp.toString()
@@ -149,7 +150,7 @@ async function getExamTimetable(token){
         headers: {
             'X-Auth': token,
             'Content-Type': 'application/x-www-form-urlencoded',
-            'User-Agent': 'Mozilla/5.0 (Linux; Android 15) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/134.0.6998.39 Mobile Safari/537.36',
+            'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
             'Origin': 'ionic://localhost',
             'X-Signature': signature,
             'X-Timestamp': timestamp.toString()
