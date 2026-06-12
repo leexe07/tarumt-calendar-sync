@@ -643,3 +643,9 @@
 [2026-06-12T06:27:58.860Z] No exam timetable data available yet. Skipping exam schedule.
 [2026-06-12T06:27:58.861Z] ICS file generated: timetable.ics (135 total events)
 [2026-06-12T06:27:58.861Z] Timetable processing completed successfully
+[2026-06-12T06:30:54.884Z] Login successful
+[2026-06-12T06:30:55.864Z] Processing class timetable data...
+[2026-06-12T06:30:55.866Z] Added 135 class events
+[2026-06-12T06:30:55.866Z] No exam timetable data available yet. Skipping exam schedule.
+[2026-06-12T06:30:55.866Z] ICS file generated: timetable.ics (135 total events)
+[2026-06-12T06:30:55.867Z] Timetable processing completed successfully
